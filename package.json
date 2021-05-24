@@ -1,0 +1,26 @@
+{
+  "name": "amp",
+  "version": "1.0.0",
+  "description": "my AMP App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UcValentine/myAmpApp.git"
+  },
+  "author": "Valentine Onah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UcValentine/myAmpApp/issues"
+  },
+  "homepage": "https://github.com/UcValentine/myAmpApp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodejs": "0.0.0",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2"
+  }
+}

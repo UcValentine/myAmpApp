@@ -1,0 +1,49 @@
+doctype
+html 
+  include ../includes/head.pug
+
+  style(amp-custom='').
+    .hero{
+        height: 70vh;
+        width: 100%;
+        background-image: url("https://i.imgur.com/l7U6ss4.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: var(--color-text-light);
+        text-shadow: 1px 1px 2px black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 8vw;
+    }
+    .space{
+        height: 20vh;
+        width: 90vw;
+        background-color: gray;
+        margin: auto;
+        margin-top: 5vh;
+        border-radius: 10px;
+    }
+    h2{
+      text-align: center;
+      padding: 5.6%;  
+    }
+
+.hero
+  h1(amp-fx='parallax' data-parallax-factor='1.8') Hello World
+
+.space 
+  h2 Div 1
+.space 
+  h2 Div 2
+.space 
+  h2 Div 3
+.space 
+  h2 Div 4
+.space 
+  h2 Div 5
+.space 
+  h2 Div 6
