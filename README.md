@@ -22,3 +22,5 @@ Run app
 ```sh
 $ npm start
 ```
+Listening on port 3000
+(http://localhost:3000)
