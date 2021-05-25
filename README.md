@@ -9,6 +9,9 @@ This is infinite scroll nodejs app with AMP
 
 ### Installation
 
+Clone the repository,
+then delete the "node_modules" folder
+
 Install the dependencies
 
 ```sh
