@@ -20,7 +20,7 @@ app.get('/about', (_req, res) => {
 
 app.get('/blog', (_req, res) => {
         res.render('blog', { 
-            title: 'Blog' 
+            title: 'Blogs' 
         });
     });
 

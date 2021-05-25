@@ -1,0 +1,54 @@
+style(amp-custom='').
+    :root {
+    --space-4: 2rem;
+    --space-2: 1rem;
+    --color-primary: #005AF0;
+    --color-text-light: #fff;
+    }
+    .amp-next-page-separator {
+    margin: var(--space-4) 0;
+    padding: var(--space-2);
+    background: var(--color-primary);
+    color: var(--color-text-light);
+    }
+    h3{
+        text-align: center;
+    }
+    .list{
+        margin: auto 10%;
+    }
+
+h3 Recent Blogs
+
+amp-next-page.list
+  script(type='application/json').
+    [
+    {
+    "title": "Netflix New Release",
+    "image": "http://placeimg.com/840/760/any",
+    "url": "/placeimgs/840/760/any"
+    },
+    {
+    "title": "Top 10 music award winners",
+    "image": "http://placeimg.com/840/760/any",
+    "url": "/placeimga/840/760/any"
+    },
+    {
+    "title": "Latest sports news",
+    "image": "http://placeimg.com/840/760/any",
+    "url": "/placeimge/840/760/any"
+    },
+    {
+    "title": "AMP Infinity",
+    "image": "http://placeimg.com/840/760/any",
+    "url": "/placeimgk/840/760/any"
+    },
+    {
+    "title": "Daily workout",
+    "image": "http://placeimg.com/840/760/any",
+    "url": "/placeimgm/840/760/any"
+    }
+    ]
+  .amp-next-page-sample-separator(separator='')
+    | amp-next-page separator
+  
